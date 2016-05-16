@@ -1,6 +1,6 @@
 {
-  "name": "pinch",
-  "version": "1.0.0",
+  "name": "pinch-api",
+  "version": "0.1.0",
   "description": "Pinch API",
   "main": "./lib/pinch.js",
   "scripts": {},
