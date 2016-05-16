@@ -2,7 +2,7 @@
   "name": "pinch",
   "version": "1.0.0",
   "description": "Pinch API",
-  "main": "./lib/index.js",
+  "main": "./lib/pinch.js",
   "scripts": {},
   "keywords": [],
   "author": "Inch",
