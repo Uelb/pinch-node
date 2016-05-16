@@ -1,18 +1,29 @@
+PinchLib
+=================
+This file was automatically generated for Pinch by APIMATIC v2.0 ( https://apimatic.io ) on 05/16/2016
 
-#Deployment Successful!
-You have succesfully deployed the SDK to this repository.
 
-This repository contains two branches. 
-* master
-* CodeGen-NODE
+How To Install: 
+=============
+The generated code relies on node package manager (npm) being available to resolve dependencies.
+Once published you will need copy the folder 'pinchlib' in to your 'node_modules' folder.
 
-Changes made on the generated branch will be overwritten.
+  
+How To Use:
+===========
+The following shows how import the controllers and use:
 
-Make sure to make your customisations on a different branch (e.g master) and then pull new versions of the generated code.
+1) Import the module:
 
-For any enquires contact support@apimatic.io
+        var pinchlib = require('pinchlib');
+2) Configure any authentication parameters. For example:
 
-Happy generating!
+        var config = pinchlib.configuration;
+        config.apikey = a_secret_key;
 
-APIMATIC
+3) Access various controllers by:
+
+        var controller = pinchlib.XYZ;
+        controller.getItems(id, callback);
+    
 
