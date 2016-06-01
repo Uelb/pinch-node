@@ -1,6 +1,6 @@
 PinchLib
 =================
-This file was automatically generated for Pinch by APIMATIC v2.0 ( https://apimatic.io ) on 05/16/2016
+This file was automatically generated for Pinch by APIMATIC v2.0 ( https://apimatic.io ) on 06/01/2016
 
 
 How To Install: 
@@ -16,6 +16,7 @@ The following shows how import the controllers and use:
 1) Import the module:
 
         var pinchlib = require('pinchlib');
+
 2) Configure any authentication parameters. For example:
 
         var config = pinchlib.configuration;
